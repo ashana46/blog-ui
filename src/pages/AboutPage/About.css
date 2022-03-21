@@ -1,0 +1,41 @@
+.header {
+  text-align: center;
+  padding: 1rem;
+  font-size: 2.5rem;
+}
+
+.image {
+  position: relative;
+  max-width: 95%;
+  max-height: 1200px;
+}
+
+.img-container {
+  float: left;
+  width: 50%;
+  padding: 1.5rem 0rem 1rem 2.5rem;
+}
+
+.text-container {
+  background-color: white;
+  overflow: hidden;
+  margin: 1.5rem 2.5rem 1rem 0rem;
+  padding: 1rem;
+  border: 2px dashed #ccc;
+  min-height: 170px;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 960px) {
+  .img-container {
+    float: none;
+    margin: 0.5rem;
+    width: 100%;
+    border: 0;
+  }
+
+  .image {
+    position: relative;
+    max-width: 95%;
+  }
+}

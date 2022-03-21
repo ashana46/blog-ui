@@ -1,0 +1,55 @@
+.text-center {
+  text-align: center;
+}
+
+.blog-content-page {
+  margin: 1rem;
+}
+
+.blog-content-question {
+  margin: 1.5rem 2.5rem 1rem 2.5rem;
+}
+
+.blog-content-answer {
+  margin: 1.5rem 2.5rem 3rem 2.5rem;
+}
+
+.blog-content-image {
+  width: 100%;
+  height: 300px;
+  margin: 1rem 2rem 1rem 2rem;
+}
+
+.image {
+  position: relative;
+  max-width: 95%;
+  max-height: 1200px;
+}
+
+.card {
+  padding: 1rem;
+  border: #ccc 1px dotted;
+  margin: 0.7rem 0;
+}
+
+.blog-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.5rem;
+  padding: 3rem;
+  height: 500px;
+}
+
+.blog-title {
+  font-size: 1.6rem;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 960px) {
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+  }
+}
